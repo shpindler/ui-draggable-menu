@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import DraggableMenu from './components/DraggableMenu.vue'
+import DraggableMenu from './components/UiDraggableMenu.vue'
 
 export default {
   name: 'App',
