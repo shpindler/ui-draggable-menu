@@ -68,18 +68,21 @@ export default {
 <style>
 .ui-draggable-menu {
   position: fixed;
-  top: 100vh;
   left: 0;
   right: 0;
   transition: top 0.3s ease-out;
 }
 
 .ui-draggable-menu__holder {
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
   width: 40px;
   height: 5px;
-  margin: 8px auto;
   background-color: #bdbdbd;
   border-radius: 2.5px;
+  cursor: grab;
   cursor: grab;
 }
 
