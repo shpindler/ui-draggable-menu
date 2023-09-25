@@ -1,23 +1,18 @@
 <template>
   <div id="app">
-    <DraggableMenu @close="onClose">
+    <UiDraggableMenu>
       I am Draggable Menu
-    </DraggableMenu>
+    </UiDraggableMenu>
   </div>
 </template>
 
 <script>
-import DraggableMenu from './components/UiDraggableMenu.vue'
+import UiDraggableMenu from './components/UiDraggableMenu.vue'
 
 export default {
   name: 'App',
   components: {
-    DraggableMenu
+    UiDraggableMenu
   },
-  methods: {
-    onClose() {
-      console.log("close");
-    }
-  }
 }
 </script>
